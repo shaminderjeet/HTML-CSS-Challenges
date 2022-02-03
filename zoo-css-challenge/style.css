@@ -39,7 +39,7 @@ h3,
 h4,
 h5 {
   /*Purple*/
-  color: #6320ee;
+  color: ;
   margin-bottom: 1em;
 }
 
@@ -64,6 +64,10 @@ button {
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
+  font-size: larger;
+}
+button:hover:focus {
+  color: #ff3f00;
 }
 
 footer {
@@ -87,7 +91,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
 
   display: flex;
@@ -97,6 +101,7 @@ footer {
 }
 
 #badge:hover {
+  transition: 0.3s;
   background-color: yellow;
 }
 
@@ -106,17 +111,17 @@ footer {
 }
 
 .image-container img {
-  display:inline-block ;
-  
+  display: inline-block;
+
   vertical-align: top;
-  border: 5px solid #1f1daa;
+  border: 5px solid #aa1d87;
 }
 
 .image-container img:first-of-type {
   vertical-align: bottom;
   border-color: rgb(49, 19, 184);
 }
-.image-container img:second-of-type {
+.image-container img:last-of-type {
   border-color: rgb(153, 130, 238);
 }
 
@@ -126,14 +131,23 @@ footer {
 }
 
 .giraffe {
-  background-color: #465775;
+  background-color: #483c46;
   color: #56e39f;
 }
 
-.giraffe h2 {
-  color: #ef6f6c;
+.giraffe h2,
+h3 {
+  color: #f4743b;
 }
-
+.giraffe p {
+  color: #beee62;
+}
+.giraffe p:first-of-type {
+  font-size: larger;
+}
+.news h2 {
+  text-align: center;
+}
 .card {
   display: inline-block;
   background-color: white;
@@ -174,6 +188,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 50px;
 }
 
 .education-container h3,
@@ -187,7 +202,12 @@ footer {
   text-align: center;
   background-color: #fffffc;
 }
-
+.membership p {
+  max-width: 700px;
+  /* margin:auto;
+  margin: bottom 20px; ;
+} */
+}
 .membership h2 {
   color: #ff3f00;
 }
@@ -199,5 +219,6 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline-flexbox;
+  padding: 20px;
 }
