@@ -29,9 +29,9 @@ section {
   background-color: #f8f0fb;
 }
 
-img {
+/*img {
   border: 5px solid #8075ff;
-}
+}*/
 
 h1,
 h2,
@@ -76,6 +76,8 @@ footer {
 }
 
 .introduction {
+  background: white;
+  word-spacing: normal;
 }
 
 #badge {
@@ -104,12 +106,18 @@ footer {
 }
 
 .image-container img {
+  display:inline-block ;
+  
   vertical-align: top;
-  border: 5px solid #747c92;
+  border: 5px solid #1f1daa;
 }
 
 .image-container img:first-of-type {
   vertical-align: bottom;
+  border-color: rgb(49, 19, 184);
+}
+.image-container img:second-of-type {
+  border-color: rgb(153, 130, 238);
 }
 
 .tigers {
