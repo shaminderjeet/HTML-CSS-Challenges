@@ -32,6 +32,11 @@ section {
 /*img {
   border: 5px solid #8075ff;
 }*/
+p,
+ul {
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
 
 h1,
 h2,
@@ -122,7 +127,6 @@ footer {
 }
 
 .image-container img:first-of-type {
-  vertical-align: bottom;
   border-color: rgb(49, 19, 184);
 }
 .image-container img:last-of-type {
@@ -153,7 +157,7 @@ h3 {
   text-align: center;
 }
 .card {
-display: flex;
+  display: flex;
   flex-direction: column;
   background-color: white;
   padding: 20px;
