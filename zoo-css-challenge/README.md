@@ -56,7 +56,7 @@ The buttons are a little hard to read. We’d like the buttons to have larger te
 Answer:changed font-size in line 67
 Change the hover effect in 69 to 71
 We don’t like the hard corners here. Can you give the container in the section some rounded corners?
-Answer:add line border radius in 189 
+Answer:add line border radius in 200 
 
 ## 7) Membership
 

@@ -228,6 +228,6 @@ h3 {
 /*Programs*/
 
 .programs .card {
-  display: inline-flexbox;
-  padding: 20px;
+  display: inline-block;
+  padding: 3px;
 }
