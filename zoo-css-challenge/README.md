@@ -76,7 +76,7 @@ The badge that says ‘Opening 2021’ we’d like to be on the top right instea
 Answer:changed the line to bottom to top in line 94
 
 When a user hovers over the badge, add a transition so the change in colour is smoother.
-Answer: I try to add transition property in line 105 or can add opacity 
+Answer: I try to add transition property in line 104 to 108 
 ## 10) New section
 
 If you have time, add a new section for your favorite animal.
