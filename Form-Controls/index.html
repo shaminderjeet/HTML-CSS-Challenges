@@ -13,38 +13,44 @@
     <h1>Product Pick</h1>
   </header>
   <main>
-  <form>
+    
+  <form  class="form">
+    <div class="form-control">
    <label for ="name" >Enter Your Name</label>
    <input type="text" name="text" id="name" required><br>
    <label for="email">E-mail</label>
    <input type="email"name="email"id="email"required><br>
+   </div>
+<div class="form-control">
    <label for ="color">Choose the color</label>
-   <select id="color">
-    <option value="red">RED</option>
+   <option value="red">RED</option>
     <option value="green">GREEN</option>
     <option value="orange">ORANGE</option>
-  </select><br>
+  </div>
+ 
+  <!-- <div class="form-control"> -->
   <label for ="size">Select the size</label>
-   <select id="size">
-    <option value="xs">XS</option>
-    <option value="s">SMALL</option>
-
-    <option value="orange">ORANGE</option>
-  </select><br>
-   
+   <option value="xs">XS</option>
+    <option value="s">S</option>
+  <option value="m">M</option>
+    <option value="l">L</option>
+    <option value="xl">XL</option>
+    <option value="xxl">XXL</option>
+<!-- </div> -->
+   <div class="form-control">
     <label for="week">Choose a week in May or June:</label>
 
     <input type="week" name="week" id="camp-week"
            min="2018-W18" max="2018-W26" required>
-    
+    </div>
     <!-- try writing out the requirements first-->
+    <footer>
+      <h4>you can email us at shaminderjeet92@gmail.com</h4>
+    </footer>
   </form>
-
+ 
   </main>
-  <footer>
-    <!-- change to your name-->
-    <h2>By HOMEWORK SOLUTION</h2>
-  </footer>
+ 
 </body>
 
 </html>
